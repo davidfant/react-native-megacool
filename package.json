@@ -1,0 +1,19 @@
+{
+  "name": "react-native-megacool",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./download_ios_sdk.sh 3.3.4",
+    "compile": "tsc && rm -rf example/megacool && cp -R build example/megacool"
+  },
+  "author": "davidfant",
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-native": "^0.56.21",
+    "typescript": "^3.0.3"
+  }
+}
